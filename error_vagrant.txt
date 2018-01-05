@@ -1,0 +1,7 @@
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "c4245318-d439-46f6-b481-3f146debcec0", "--type", "headless"]
+
+Stderr: VBoxManage: error: The virtual machine 'vagrant_default_1514768915211_40468' has terminated unexpectedly during startup with exit code 1 (0x1)
+VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component MachineWrap, interface IMachine
